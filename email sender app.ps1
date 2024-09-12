@@ -22,8 +22,7 @@ $comboBox.Size = New-Object System.Drawing.Size(400, 20)
 $comboBox.Items.AddRange(@(
     "Report1"
     "Report2"
-    "Report3", 
-    
+    "Report3"
 ))
 $form.Controls.Add($comboBox)
 
@@ -51,7 +50,63 @@ $templates = @{
         "CC" = ""
         "BCC" = ""
         "Subject" = "Report1"
-        "Body" = "<div style='font-size:9pt; font-family:Biennale'>Hi Both,<br><br>The Finance Report is uploaded in: <a href='https://atos365.sharepoint.com/:f:/r/sites/100005485/Shared%20Documents/02%20%20Leadership%20Team/Data%20Integrity%20and%20Reports/A%20FIN?csf=1&web=1&e=50n6gq'>A FIN REPORT</a><br><br></div><br><table cellpadding='0' cellspacing='0' border='0' width='100%' id='tablePreview' style='display: table; margin-bottom: 0px; transition: 300ms; font-size:9pt; font-family:Biennale;'><tbody><tr><td style='margin:0 0 15px 0;padding:0' id='politeSignature' colspan='2'><div id='polite1' style='margin:10px 0;font-family:Biennale;color:#000;font-size:9pt'>Kind regards,</div></td></tr><tr><td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'><span><img width='150' src='https://atos.net/content/email-signature/euro-2024-atos.png' id='logo' alt='equensWorldline logo'></span></td><td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'><span id='fullName1' style='font-family:Biennale;color:#0073e6;font-weight:bold;font-size:13px'>Iosif-Alexandru Vrencean</span><br><span id='jobtitle1' style='font-family:Biennale;color:#000;font-size:11px'>Global Reporting Analyst</span><br><span style='font-family:Biennale;color:#000;font-size:11px' id='address1'>Atos IT Solutions and Services EOOD – 2 Knyaginya Maria Louis\a Blvd Sofia </span><span style='font-family:Biennale;color:#000;font-size:11px' id='addressline2span'> – 1000 – Bulgaria</span><span style='font-family:Biennale;color:#000;font-size:11px' id='country1'> – Bulgaria</span><br><a href='https://atos.net/bg' target='_blank' style='font-family:Biennale;font-size:11px;text-decoration:underline;color:#0073e6'>atos.net/bg</a><br><span id='idWrapIcons' class='wrapIcons' style='font-size:22px;margin-top:6px'><span><a target='_blank' href='https://www.linkedin.com/in/iosif-alexandru-vrencean-3747211b8/'><img src='https://atos.net/content/email-signature/linkedin.png' width='15' height='15' alt='LinkedIn icon'></a></span>&nbsp;<span><a title='LinkedIn' href='https://twitter.com/atos' target='_blank'><img src='https://atos.net/content/email-signature/twitter.png' width='15' height='15' alt='Twitter icon'></a></span>&nbsp;<span><a href='https://www.facebook.com/Atos/' target='_blank'><img src='https://atos.net/content/email-signature/facebook.png' width='15' height='15' alt='Facebook icon'></a></span>&nbsp;<span><a href='https://www.instagram.com/atosinside/' target='_blank'><img src='https://atos.net/content/email-signature/instagram.png' width='15' height='15' alt='Instagram icon'></a></span>&nbsp;<span><a href='https://www.youtube.com/user/Atos' target='_blank'><img src='https://atos.net/content/email-signature/youtube.png' width='15' height='15' alt='Youtube icon'></a></span>&nbsp;<span><a href='https://www.xing.com/companies/atosorigin' target='_blank'><img src='https://atos.net/content/email-signature/xing.png' width='15' height='15' alt='Xing icon'></a></span>&nbsp;</span></td></tr></tbody></table>"
+        "Body" = "<div style='font-size:9pt; font-family:Biennale'>
+                Hi,<br><br>
+                This is a test email.
+                <br><br>
+        </div>
+        <br>
+        <table cellpadding='0' cellspacing='0' border='0' width='100%' id='tablePreview' style='display: table; margin-bottom: 0px; transition: 300ms; font-size:9pt; font-family:Biennale;'>
+                <tbody>
+                        <tr>
+                                <td style='margin:0 0 15px 0;padding:0' id='email-signature' colspan='2'>
+                                        <div id='polite1' style='margin:10px 0;font-family:Biennale;color:#000;font-size:9pt'>
+                                                Kind regards,
+                                        </div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'>
+                                        <span>
+                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHA5IWP4U7PYGQSQR2SZXCQRIQ' id='logo' alt='equensWorldline logo'>
+                                        </span>
+                                </td>
+                                <td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'>
+                                        <span id='fullName1' style='font-family:Biennale;color:#0073e6;font-weight:bold;font-size:13px'>
+                                                Iosif-Alexandru Vrencean
+                                        </span>
+                                        <br>
+                                        <span id='telephone-number' style='font-family:Biennale;color:#000;font-size:11px'>
+                                                +359 876 711 955
+                                        </span>
+                                        <br>
+                                        <span style='font-family:Biennale;color:#000;font-size:11px' id='email-ID'>
+                                                iosifa286@gmail.com
+                                        </span>
+                                        <br>
+                                        <span id='idWrapIcons' class='wrapIcons' style='font-size:22px;margin-top:6px'>
+                                                <span>
+                                                        <a target='_blank' href='https://www.linkedin.com/in/iosif-alexandru-vrencean-3747211b8/'>
+                                                                <img src='https://atos.net/content/email-signature/linkedin.png' width='15' height='15' alt='LinkedIn icon'>
+                                                        </a>
+                                                </span>
+                                                &nbsp;
+                                                <span>
+                                                        <a href='https://www.facebook.com/alex.iosif.522066/' target='_blank'>
+                                                                <img src='https://www.citypng.com/public/uploads/preview/round-circular-outline-fb-facebook-logo-icon-7017516951343412jdei1yvdo.png' width='15' height='15' alt='Facebook icon'>
+                                                        </a>
+                                                </span>
+                                                &nbsp;
+                                                <span>
+                                                        <a href='https://github.com/iosifvren' target='_blank'>
+                                                                <img src='https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png' width='15' height='15' alt='GitHub icon'>
+                                                        </a>
+                                                </span>
+                                        </span>
+                                </td>
+                        </tr>
+                </tbody>
+        </table>"
     }
     
     "Report2" = @{
@@ -59,7 +114,63 @@ $templates = @{
         "CC" = ""
         "BCC" = "t"
         "Subject" = "Report2"
-        "Body" = "<div style='font-size:9pt; font-family:Biennale'>Hi Maria,<br><br>Please find attached the report.<br><br></div><br><table cellpadding='0' cellspacing='0' border='0' width='100%' id='tablePreview' style='display: table; margin-bottom: 0px; transition: 300ms; font-size:9pt; font-family:Biennale;'><tbody><tr><td style='margin:0 0 15px 0;padding:0' id='politeSignature' colspan='2'><div id='polite1' style='margin:10px 0;font-family:Biennale;color:#000;font-size:9pt'>Kind regards,</div></td></tr><tr><td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'><span><img width='150' src='https://atos.net/content/email-signature/euro-2024-atos.png' id='logo' alt='equensWorldline logo'></span></td><td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'><span id='fullName1' style='font-family:Biennale;color:#0073e6;font-weight:bold;font-size:13px'>Iosif-Alexandru Vrencean</span><br><span id='jobtitle1' style='font-family:Biennale;color:#000;font-size:11px'>Global Reporting Analyst</span><br><span style='font-family:Biennale;color:#000;font-size:11px' id='address1'>Atos IT Solutions and Services EOOD – 2 Knyaginya Maria Louis\a Blvd Sofia </span><span style='font-family:Biennale;color:#000;font-size:11px' id='addressline2span'> – 1000 – Bulgaria</span><span style='font-family:Biennale;color:#000;font-size:11px' id='country1'> – Bulgaria</span><br><a href='https://atos.net/bg' target='_blank' style='font-family:Biennale;font-size:11px;text-decoration:underline;color:#0073e6'>atos.net/bg</a><br><span id='idWrapIcons' class='wrapIcons' style='font-size:22px;margin-top:6px'><span><a target='_blank' href='https://www.linkedin.com/in/iosif-alexandru-vrencean-3747211b8/'><img src='https://atos.net/content/email-signature/linkedin.png' width='15' height='15' alt='LinkedIn icon'></a></span>&nbsp;<span><a title='LinkedIn' href='https://twitter.com/atos' target='_blank'><img src='https://atos.net/content/email-signature/twitter.png' width='15' height='15' alt='Twitter icon'></a></span>&nbsp;<span><a href='https://www.facebook.com/Atos/' target='_blank'><img src='https://atos.net/content/email-signature/facebook.png' width='15' height='15' alt='Facebook icon'></a></span>&nbsp;<span><a href='https://www.instagram.com/atosinside/' target='_blank'><img src='https://atos.net/content/email-signature/instagram.png' width='15' height='15' alt='Instagram icon'></a></span>&nbsp;<span><a href='https://www.youtube.com/user/Atos' target='_blank'><img src='https://atos.net/content/email-signature/youtube.png' width='15' height='15' alt='Youtube icon'></a></span>&nbsp;<span><a href='https://www.xing.com/companies/atosorigin' target='_blank'><img src='https://atos.net/content/email-signature/xing.png' width='15' height='15' alt='Xing icon'></a></span>&nbsp;</span></td></tr></tbody></table>"
+        "Body" = "<div style='font-size:9pt; font-family:Biennale'>
+                Hi,<br><br>
+                This is a test email.
+                <br><br>
+        </div>
+        <br>
+        <table cellpadding='0' cellspacing='0' border='0' width='100%' id='tablePreview' style='display: table; margin-bottom: 0px; transition: 300ms; font-size:9pt; font-family:Biennale;'>
+                <tbody>
+                        <tr>
+                                <td style='margin:0 0 15px 0;padding:0' id='email-signature' colspan='2'>
+                                        <div id='polite1' style='margin:10px 0;font-family:Biennale;color:#000;font-size:9pt'>
+                                                Kind regards,
+                                        </div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'>
+                                        <span>
+                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHA5IWP4U7PYGQSQR2SZXCQRIQ' id='logo' alt='equensWorldline logo'>
+                                        </span>
+                                </td>
+                                <td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'>
+                                        <span id='fullName1' style='font-family:Biennale;color:#0073e6;font-weight:bold;font-size:13px'>
+                                                Iosif-Alexandru Vrencean
+                                        </span>
+                                        <br>
+                                        <span id='telephone-number' style='font-family:Biennale;color:#000;font-size:11px'>
+                                                +359 876 711 955
+                                        </span>
+                                        <br>
+                                        <span style='font-family:Biennale;color:#000;font-size:11px' id='email-ID'>
+                                                iosifa286@gmail.com
+                                        </span>
+                                        <br>
+                                        <span id='idWrapIcons' class='wrapIcons' style='font-size:22px;margin-top:6px'>
+                                                <span>
+                                                        <a target='_blank' href='https://www.linkedin.com/in/iosif-alexandru-vrencean-3747211b8/'>
+                                                                <img src='https://atos.net/content/email-signature/linkedin.png' width='15' height='15' alt='LinkedIn icon'>
+                                                        </a>
+                                                </span>
+                                                &nbsp;
+                                                <span>
+                                                        <a href='https://www.facebook.com/alex.iosif.522066/' target='_blank'>
+                                                                <img src='https://www.citypng.com/public/uploads/preview/round-circular-outline-fb-facebook-logo-icon-7017516951343412jdei1yvdo.png' width='15' height='15' alt='Facebook icon'>
+                                                        </a>
+                                                </span>
+                                                &nbsp;
+                                                <span>
+                                                        <a href='https://github.com/iosifvren' target='_blank'>
+                                                                <img src='https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png' width='15' height='15' alt='GitHub icon'>
+                                                        </a>
+                                                </span>
+                                        </span>
+                                </td>
+                        </tr>
+                </tbody>
+        </table>"
     }
 
     "Report3" = @{
@@ -67,7 +178,63 @@ $templates = @{
         "CC" = ""
         "BCC" = ""
         "Subject" = "Report3"
-        "Body" = "<div style='font-size:9pt; font-family:Biennale'>Hi Ohm,<br><br>Please find attached this week batch 1 of GOA offers for APAC, Growth Markets!<br>Also please check/refer On Hold Sheet created separately.<br><br></div><br><table cellpadding='0' cellspacing='0' border='0' width='100%' id='tablePreview' style='display: table; margin-bottom: 0px; transition: 300ms; font-size:9pt; font-family:Biennale;'><tbody><tr><td style='margin:0 0 15px 0;padding:0' id='politeSignature' colspan='2'><div id='polite1' style='margin:10px 0;font-family:Biennale;color:#000;font-size:9pt'>Kind regards,</div></td></tr><tr><td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'><span><img width='150' src='https://atos.net/content/email-signature/euro-2024-atos.png' id='logo' alt='equensWorldline logo'></span></td><td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'><span id='fullName1' style='font-family:Biennale;color:#0073e6;font-weight:bold;font-size:13px'>Iosif-Alexandru Vrencean</span><br><span id='jobtitle1' style='font-family:Biennale;color:#000;font-size:11px'>Global Reporting Analyst</span><br><span style='font-family:Biennale;color:#000;font-size:11px' id='address1'>Atos IT Solutions and Services EOOD – 2 Knyaginya Maria Louis\a Blvd Sofia </span><span style='font-family:Biennale;color:#000;font-size:11px' id='addressline2span'> – 1000 – Bulgaria</span><span style='font-family:Biennale;color:#000;font-size:11px' id='country1'> – Bulgaria</span><br><a href='https://atos.net/bg' target='_blank' style='font-family:Biennale;font-size:11px;text-decoration:underline;color:#0073e6'>atos.net/bg</a><br><span id='idWrapIcons' class='wrapIcons' style='font-size:22px;margin-top:6px'><span><a target='_blank' href='https://www.linkedin.com/in/iosif-alexandru-vrencean-3747211b8/'><img src='https://atos.net/content/email-signature/linkedin.png' width='15' height='15' alt='LinkedIn icon'></a></span>&nbsp;<span><a title='LinkedIn' href='https://twitter.com/atos' target='_blank'><img src='https://atos.net/content/email-signature/twitter.png' width='15' height='15' alt='Twitter icon'></a></span>&nbsp;<span><a href='https://www.facebook.com/Atos/' target='_blank'><img src='https://atos.net/content/email-signature/facebook.png' width='15' height='15' alt='Facebook icon'></a></span>&nbsp;<span><a href='https://www.instagram.com/atosinside/' target='_blank'><img src='https://atos.net/content/email-signature/instagram.png' width='15' height='15' alt='Instagram icon'></a></span>&nbsp;<span><a href='https://www.youtube.com/user/Atos' target='_blank'><img src='https://atos.net/content/email-signature/youtube.png' width='15' height='15' alt='Youtube icon'></a></span>&nbsp;<span><a href='https://www.xing.com/companies/atosorigin' target='_blank'><img src='https://atos.net/content/email-signature/xing.png' width='15' height='15' alt='Xing icon'></a></span>&nbsp;</span></td></tr></tbody></table>"
+        "Body" = "<div style='font-size:9pt; font-family:Biennale'>
+                Hi,<br><br>
+                This is a test email.
+                <br><br>
+        </div>
+        <br>
+        <table cellpadding='0' cellspacing='0' border='0' width='100%' id='tablePreview' style='display: table; margin-bottom: 0px; transition: 300ms; font-size:9pt; font-family:Biennale;'>
+                <tbody>
+                        <tr>
+                                <td style='margin:0 0 15px 0;padding:0' id='email-signature' colspan='2'>
+                                        <div id='polite1' style='margin:10px 0;font-family:Biennale;color:#000;font-size:9pt'>
+                                                Kind regards,
+                                        </div>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'>
+                                        <span>
+                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHA5IWP4U7PYGQSQR2SZXCQRIQ' id='logo' alt='equensWorldline logo'>
+                                        </span>
+                                </td>
+                                <td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'>
+                                        <span id='fullName1' style='font-family:Biennale;color:#0073e6;font-weight:bold;font-size:13px'>
+                                                Iosif-Alexandru Vrencean
+                                        </span>
+                                        <br>
+                                        <span id='telephone-number' style='font-family:Biennale;color:#000;font-size:11px'>
+                                                +359 876 711 955
+                                        </span>
+                                        <br>
+                                        <span style='font-family:Biennale;color:#000;font-size:11px' id='email-ID'>
+                                                iosifa286@gmail.com
+                                        </span>
+                                        <br>
+                                        <span id='idWrapIcons' class='wrapIcons' style='font-size:22px;margin-top:6px'>
+                                                <span>
+                                                        <a target='_blank' href='https://www.linkedin.com/in/iosif-alexandru-vrencean-3747211b8/'>
+                                                                <img src='https://atos.net/content/email-signature/linkedin.png' width='15' height='15' alt='LinkedIn icon'>
+                                                        </a>
+                                                </span>
+                                                &nbsp;
+                                                <span>
+                                                        <a href='https://www.facebook.com/alex.iosif.522066/' target='_blank'>
+                                                                <img src='https://www.citypng.com/public/uploads/preview/round-circular-outline-fb-facebook-logo-icon-7017516951343412jdei1yvdo.png' width='15' height='15' alt='Facebook icon'>
+                                                        </a>
+                                                </span>
+                                                &nbsp;
+                                                <span>
+                                                        <a href='https://github.com/iosifvren' target='_blank'>
+                                                                <img src='https://w7.pngwing.com/pngs/646/324/png-transparent-github-computer-icons-github-logo-monochrome-head-thumbnail.png' width='15' height='15' alt='GitHub icon'>
+                                                        </a>
+                                                </span>
+                                        </span>
+                                </td>
+                        </tr>
+                </tbody>
+        </table>"
     }
 }
 
