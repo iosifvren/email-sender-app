@@ -68,7 +68,7 @@ $templates = @{
                         <tr>
                                 <td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'>
                                         <span>
-                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHA5IWP4U7PYGQSQR2SZXCQRIQ' id='logo' alt='equensWorldline logo'>
+                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHAC6HFOY4U62HUQTHCZXCR22A' id='logo' alt='equensWorldline logo'>
                                         </span>
                                 </td>
                                 <td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'>
@@ -112,7 +112,7 @@ $templates = @{
     "Report2" = @{
         "To" = "iosifa286@gmail.com"
         "CC" = ""
-        "BCC" = "t"
+        "BCC" = ""
         "Subject" = "Report2"
         "Body" = "<div style='font-size:9pt; font-family:Biennale'>
                 Hi,<br><br>
@@ -132,7 +132,7 @@ $templates = @{
                         <tr>
                                 <td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'>
                                         <span>
-                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHA5IWP4U7PYGQSQR2SZXCQRIQ' id='logo' alt='equensWorldline logo'>
+                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHAC6HFOY4U62HUQTHCZXCR22A' id='logo' alt='equensWorldline logo'>
                                         </span>
                                 </td>
                                 <td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'>
@@ -196,7 +196,7 @@ $templates = @{
                         <tr>
                                 <td id='logoSignature' style='vertical-align: middle; padding-right: 20px; width: 150px;'>
                                         <span>
-                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHA5IWP4U7PYGQSQR2SZXCQRIQ' id='logo' alt='equensWorldline logo'>
+                                                <img width='150' src='https://raw.githubusercontent.com/iosifvren/email-sender-app/main/IAV2.jpg?token=GHSAT0AAAAAACXEDKHAC6HFOY4U62HUQTHCZXCR22A' id='logo' alt='equensWorldline logo'>
                                         </span>
                                 </td>
                                 <td width='100%' style='border-left: 2px solid rgb(128, 128, 128); max-width: 100%; padding-left: 25px; line-height: 1; padding-bottom: 0px;' id='textSignature'>
